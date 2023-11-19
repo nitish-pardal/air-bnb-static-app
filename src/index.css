@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+.nav-container{
+  background: #F55A5A;
+  display: flex;
+  height:55px;
+  color: white;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+}
+.earth-image{
+  height:24px;
+  margin-right: 10px;
+}
+
+/*card-styling */
+.card-list-container{
+  padding:40px;
+}
+.card-container{
+  padding-bottom:40px;
+  display:flex;
+  align-items: center;
+  width: 600px;
+}
+.card-img{
+  width:125px;
+  height:168px;
+  border-radius: 5px;
+  margin-right:10px;
+}
+.first-line{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.fill{
+  width:7px;
+  margin-right: 5px;
+}
+.first-line >p{
+  margin-right:20px;
+}
+.view-on-google{
+  color:grey;
+}
+.place-name{
+  margin-bottom:12px;
+}
+.date{
+  font-weight: bold;
+  font-size:12px;
+  margin-bottom:5px;
+}
+.place-information{
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column; /* Stack items vertically */
+    /* Other styles */
+  }
+}
